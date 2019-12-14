@@ -1,34 +1,49 @@
 --WAF config file,enable = "on",disable = "off"
 
 --waf status
+--waf状态
 config_waf_enable = "on"
 --log dir
+--日志路径
 config_log_dir = "/data/wwwlogs"
 --rule setting
+--规则路径
 config_rule_dir = "/usr/local/nginx/conf/waf/wafconf"
 --enable/disable white url
+--启用/禁用 白名单URL
 config_white_url_check = "on"
 --enable/disable white ip
+--启用/禁用 白名单ip
 config_white_ip_check = "on"
 --enable/disable block ip
+--启用/禁用 黑名单ip
 config_black_ip_check = "on"
 --enable/disable url filtering
+--启用/禁用 URL过滤
 config_url_check = "on"
 --enalbe/disable url args filtering
+--启用/禁用 url参数过滤
 config_url_args_check = "on"
 --enable/disable user agent filtering
+--启用/禁用 用户参数过滤
 config_user_agent_check = "on"
 --enable/disable cookie deny filtering
+--启用/禁用 Cookie 过略
 config_cookie_check = "on"
 --enable/disable cc filtering
+--启用/禁用  CC防护
 config_cc_check = "on"
 --cc rate the xxx of xxx seconds
+--cc检测频率 请求量/单位时间s
 config_cc_rate = "60/60"
 --enable/disable post filtering
+--启用/禁用 Post过滤
 config_post_check = "on"
 --config waf output redirect/html
+--配置 waf 输出 拦截页面
 config_waf_output = "html"
 --if config_waf_output ,setting url
+--如果配置waf输出 验证码页面
 config_waf_redirect_url = "/captcha"
 config_waf_captcha_html=[[
 <html>
