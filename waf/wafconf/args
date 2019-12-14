@@ -35,3 +35,4 @@ benchmark\((.*)\,(.*)\)
 into(\s+)+(?:dump|out)file\s*
 group\s+by.+\(
 \<(iframe|script|body|img|layer|div|meta|style|base|object|input)
+@eval.*GET(.*])
