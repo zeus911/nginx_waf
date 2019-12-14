@@ -2,3 +2,5 @@
 \.(gif|jpg|jpeg|png|bmp|swf|flv|mp4|ico|map)
 captcha-waf\.html
 403\.html
+^/\.well-known/
+^/wp-content/themes/begin/timthumb\.php
